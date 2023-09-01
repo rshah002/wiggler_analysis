@@ -1,0 +1,27 @@
+1.5e9           # e-beam: Ee - Average Electron Beam(eV)
+6.5e-4         # e-beam: relative energy spread - Gaussian Spread
+1.41935e-4         # e-beam: sigma_e_x [m] - spread in x
+8.0e-6         # e-beam: sigma_e_y [m] - spread in y
+2.0e-10          # e-beam: eps_x [m rad] - emittance in x
+2.0e-10          # e-beam: eps_y [m rad] - emittance in y
+10.0e-2          # p-beam: wavelength [m] - wavelength of incident laser pulse
+10.0             # p-beam: sig (normalized) [unitless] - total length of the laser divided by the wavelength
+150.0e-1         # p-beam: sigma_p [m] - circular dist. of inc. laser pulse (width of laser beam)
+2.0              # p-beam: a0 - field strength parameter a0=K: undulator;
+5                # p-beam: envelope =1: gaussian; =2: rect.; =3: from file; =4: undulator;
+10              # p-beam: laser chirping type modType; =9: from file; =10: undulator;
+5.0e-2           # p-beam: if modType=2: a0chirp; =3: lambda_RF; =5: p (lam_u [m])
+0.0              # p-beam: angle between the laser and the z-axis [rad]
+0                # aperture: TypeAp = 0: circular, 1: rectangular
+60              # aperture: distance between IP and aperture L_aper [m]
+6.81e-8            # aperture: if TypeAp = 0: R_aper [m]; = 1: x_aper [m]
+0.000            # aperture: if TypeAp = 0: ignored; = 1: y_aper [m]
+0.01             # aperture: start spectrum (normalized freq)
+6.0              # aperture: end spectrum (normalized freq)
+192000              # simulation: Nout (number of output point in the spectrum)
+2000000               # simulation: Ntot - iterations in quaderture (number of simpsons trapezoids in integral)
+1               # simulation: Npart - number of electrons
+1              # simulation: N_MC - monte carlo number
+1                # simulation: =1: read ICs from file; <> 1: MC
+1                # ?
+1                # ?

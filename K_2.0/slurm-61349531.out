@@ -1,0 +1,55 @@
+******************************************************
+***          SENSE Simulation Parameters           ***
+******************************************************
+2  ICs read from file data_ICs.in
+------------------------------------------------------
+e-beam:  En0        =   1500000000.0  eV
+e-beam:  gamma_0    =   2935.4207436399215
+e-beam:  sig_g      =   0.00065
+e-beam:  eps_x_n    =   2e-10  m rad
+e-beam:  eps_y_n    =   2e-10  m rad
+e-beam:  eps_x      =   6.813333333333333e-14  m rad
+e-beam:  eps_y      =   6.813333333333333e-14  m rad
+e-beam:  sigma_e_x  =   0.000141935  m
+e-beam:  sigma_e_y  =   8e-06  m
+e-beam:  sigma_e_px =   4.800319395028241e-10  rad
+e-beam:  sigma_e_py =   8.516666666666667e-09  rad
+------------------------------------------------------
+p-beam:  lambda0    =   0.1  m
+p-beam:  p_0        =   8.01622651116082e-19  kg m/s
+p-beam:  sig        =   10.0
+p-beam:  sigma_p    =   15.0  m
+p-beam:  a0         =   2.0
+p-beam:  iTypeEnv   =   5
+p-beam:  modType    =   10
+p-beam:  n_gamma    =   0.34500318265800795
+p-beam:  X          =   2.8485491335964875e-07
+p-beam:  angle      =   0.0  rad
+------------------------------------------------------
+p-beam:  no chirp
+------------------------------------------------------
+aperture:  circular 
+aperture:  L_aper   =   60.0  m
+aperture:  R_aper   =   6.81e-08  m
+aperture:  theta_a  =   1.135e-09  rad
+------------------------------------------------------
+IP:  beta_x   =   295678.2420499021  m
+IP:  beta_y   =   939.3346379647749  m
+------------------------------------------------------
+simulation:  w_min  =   0.01
+simulation:  w_max  =   6.0
+simulation:  Nout   =   192000
+simulation:  Ntot   =   2000000
+simulation:  Npart  =   2
+simulation:  N_MC   =   1
+------------------------------------------------------
+e-beam mean E_0     =   1526.2499829341543  MeV (computed)
+scattered mean E'   =   0.42733656897279426  keV
+******************************************************
+Finished sampling electron distribution...
+Finished computing parameters for each electron...
+Now executing spectrum computation on  80  CPUs
+
+real	477m17.486s
+user	953m42.320s
+sys	2m8.703s
